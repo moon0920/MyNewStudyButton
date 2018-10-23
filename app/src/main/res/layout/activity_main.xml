@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnToast"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:text="ButtonToast"
+        android:onClick="onClickWidget"
+        />
+
+    <ToggleButton
+        android:id="@+id/toggleBtn"
+        android:layout_width="180dp"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:textOn="토글ON"
+        android:textOff="토글OFF"
+        android:onClick="onClickWidget"/>
+
+
+</LinearLayout>
